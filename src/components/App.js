@@ -1,21 +1,18 @@
 import React from 'react'
-import { AsideInfo } from './Aside'
-import { ContactsInfo } from './ContactsInfo'
-// import { Context } from './Context/Context'
-import { MenuButton } from './MenuButton'
-import { PersonalInfo } from './PersonalInfo'
-import { ProjectsInfo } from './ProjectsInfo'
-import { GlobalStyle } from '../styles/GlobalStyle'
+import { Home } from './container/Home'
+import { Detail } from './container/Detail'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Layout } from './Layout/Layout'
 
 export const App = () => {
   return (
-    <section>
-      <GlobalStyle />
-      <AsideInfo />
-      <PersonalInfo />
-      <ProjectsInfo />
-      <ContactsInfo />
-      <MenuButton />
-    </section>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/detail' element={<Detail />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   )
 }

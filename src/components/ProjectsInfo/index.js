@@ -3,6 +3,7 @@ import { Modal } from '../../Modal'
 import ProjectInfo from '../../ProjectInfo'
 import { Container, Image, Card, ProjectContainer } from './styles'
 import { Context } from '../Context/Context'
+import { Link } from 'react-router-dom'
 
 const ProjectsInfo = () => {
   const [state, dispatch] = React.useReducer(reducer, initialState)
@@ -30,12 +31,15 @@ const ProjectsInfo = () => {
                   title={project.title}
                   description={project.description}
                   onClick={() => dispatch({ type: 'FALSE' })}
+                  link={project.link}
                 />}
             </Card>
           )
         }
       </Container>
-
+      <Link to='/detail'>
+        <h5>More projects...</h5>
+      </Link>
     </ProjectContainer>
   )
 }
