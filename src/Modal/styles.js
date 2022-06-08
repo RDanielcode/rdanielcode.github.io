@@ -24,13 +24,13 @@ export const Button = styled.button`
   right: 5px;
 `
 export const Title = styled.h3`
-  color: #fff;
+  color: #ada5a5;
   margin: 10px;
   font-family: sans-serif;
 `
 
 export const Description = styled.p`
-  color: #fff;
+  color: #ada5a5;
   text-align: justify;
   font-family: sans-serif;
   margin: 0 20px;

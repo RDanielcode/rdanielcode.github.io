@@ -8,7 +8,8 @@ export default {
       active: false,
       number: 'ONE',
       link: 'https://rdanielcode.github.io/ToDo-App/',
-      type: 'React'
+      type: 'React',
+      color: '#5ab2b5'
     },
 
     {
@@ -19,7 +20,8 @@ export default {
       active: false,
       number: 'TWO',
       link: 'https://store-project-d6d95.web.app/',
-      type: 'React'
+      type: 'React',
+      color: '#5ab2b5'
     },
 
     {
@@ -30,7 +32,8 @@ export default {
       active: false,
       number: 'THREE',
       link: 'https://petgram-dancode2-rdanielcode.vercel.app/',
-      type: 'React'
+      type: 'React',
+      color: '#5ab2b5'
     },
 
     {
@@ -41,7 +44,8 @@ export default {
       active: false,
       number: 'FOUR',
       link: 'https://rdanielcode.github.io/Weather-App/public/index.html',
-      type: 'JavaScript'
+      type: 'JavaScript',
+      color: '#dbdb2f'
     },
 
     {
@@ -52,7 +56,8 @@ export default {
       active: false,
       number: 'FIVE',
       link: 'https://rdanielcode.github.io/MemoryGame/src/index.html',
-      type: 'JavaScript'
+      type: 'JavaScript',
+      color: '#dbdb2f'
     },
 
     {
@@ -63,7 +68,8 @@ export default {
       active: false,
       number: 'SIX',
       link: 'https://rdanielcode.github.io/areaCalculator/src/index.html',
-      type: 'JavaScript'
+      type: 'JavaScript',
+      color: '#dbdb2f'
     },
 
     {
@@ -74,7 +80,8 @@ export default {
       active: false,
       number: 'SEVEN',
       link: 'https://rdanielcode.github.io/Game/',
-      type: 'CSS'
+      type: 'CSS',
+      color: '#bf6cbf'
     }
   ]
 }

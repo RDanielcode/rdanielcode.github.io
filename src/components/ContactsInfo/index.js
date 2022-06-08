@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Context } from '../Context/Context'
-import { Contact, Form, InputContent, InputTitle, Label, Social } from './styles'
+import { Button, CapitalLetter, Contact, Form, InputContent, InputTitle, Label, Social, Title } from './styles'
 import { FaLinkedin } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FcPhoneAndroid } from 'react-icons/fc'
@@ -9,7 +9,7 @@ const ContactsInfo = () => {
   const { checked } = useContext(Context)
   return (
     <Form action='https://formsubmit.co/danielalejndro@gmail.com' method='POST' className={checked && 'inactive'}>
-      <h2>Contact</h2>
+      <Title><CapitalLetter>C</CapitalLetter>ontact</Title>
 
       <Label htmlFor='name'>Name</Label>
       <InputTitle type='text' placeholder='title' name='name' />
@@ -26,7 +26,7 @@ const ContactsInfo = () => {
       <input type='hidden' name='_next' value='http://localhost:3006' />
       <input type='hidden' name='_captcha' value='false' />
 
-      <button type='submit'>Send</button>
+      <Button type='submit'>Send</Button>
       <Social href='https://www.linkedin.com/in/daniel-reyes-88745471/'>
         <Contact><FaLinkedin />Linkedin</Contact>
       </Social>

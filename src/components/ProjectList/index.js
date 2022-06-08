@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ProjectListInfo from '../../ProjectListInfo'
-import { Article, Info, Section, Tech } from './styles'
+import { Article, Info, Section, Tech, Type } from './styles'
 
 const ProjectList = () => {
   const [state, setState] = useState(ProjectListInfo)
@@ -17,7 +17,7 @@ const ProjectList = () => {
               <p>{project.description}</p>
               <a href={project.link}>Go to the project...</a>
             </Info>
-            <Tech>Project mostly done with: {project.type}</Tech>
+            <Tech><Type style={{ border: `10px solid ${project.color}` }} /> {project.type}</Tech>
           </Article>
         )
       }

@@ -2,7 +2,9 @@ import styled from 'styled-components'
 
 export const Form = styled.form`
   height: 400px;
-  width: 80%;
+  width: 100%;
+  color: #b7b7b7;
+  background: #1e1e1e;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -17,6 +19,7 @@ export const InputTitle = styled.input`
   max-width: 500px;
   height: 30px;
   margin: 5px 0;
+  background: #c9c9c9;
 `
 
 export const InputContent = styled.textarea`
@@ -24,7 +27,7 @@ export const InputContent = styled.textarea`
   max-width: 500px;
   height: 330px;
   margin: 5px 0;
-
+  background: #c9c9c9;
 `
 
 export const Label = styled.label`
@@ -38,6 +41,25 @@ export const Contact = styled.p`
 `
 
 export const Social = styled.a`
-  color: rgb(0,0,0);
+  color: #b7b7b7;
   text-decoration: none;
+`
+export const CapitalLetter = styled.span`
+  position: absolute;
+  font-size: 50px;
+  top: -32px;
+  left: -4%;
+  color: #b7b7b7;
+  font-weight: 920;
+  opacity: 0.7;
+  z-index: 1;
+`
+export const Title = styled.h4`
+  position: relative;
+  margin-left: 20px;
+`
+export const Button = styled.button`
+  background: #a1a110;
+  border: none;
+  color: #b7b7b7;
 `

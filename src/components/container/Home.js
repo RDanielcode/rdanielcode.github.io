@@ -1,20 +1,21 @@
 import React from 'react'
 import { AsideInfo } from '../Aside'
 import { ContactsInfo } from '../ContactsInfo'
-// import { Context } from '../Context/Context'
 import { MenuButton } from '../MenuButton'
 import { PersonalInfo } from '../PersonalInfo'
 import { ProjectsInfo } from '../ProjectsInfo'
-import { GlobalStyle } from '../../styles/GlobalStyle'
-// import { useLocation } from 'react-router-dom'
+import { Skills } from '../Skills'
+import { Between, Between2 } from './styles'
 
 const Home = () => {
   return (
     <div>
-      <GlobalStyle />
       <AsideInfo />
       <PersonalInfo />
+      <Between />
       <ProjectsInfo />
+      <Between2 />
+      <Skills />
       <ContactsInfo />
       <MenuButton />
     </div>

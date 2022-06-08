@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react'
 import { Modal } from '../../Modal'
 import ProjectInfo from '../../ProjectInfo'
-import { Container, Image, Card, ProjectContainer } from './styles'
+import { Container, Image, Card, ProjectContainer, CapitalLetter, Title } from './styles'
 import { Context } from '../Context/Context'
 import { Link } from 'react-router-dom'
 
@@ -15,7 +15,7 @@ const ProjectsInfo = () => {
 
   return (
     <ProjectContainer className={checked && 'inactive'}>
-      <h2>Projects</h2>
+      <Title><CapitalLetter>P</CapitalLetter>rojects</Title>
       <Container>
         {
           projects.map(project =>
