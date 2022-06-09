@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const Form = styled.form`
   height: 400px;
-  width: 100%;
+  width: 70%;
   color: #b7b7b7;
-  background: #1e1e1e;
+  background: #0c0e0f;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -43,6 +43,9 @@ export const Contact = styled.p`
 export const Social = styled.a`
   color: #b7b7b7;
   text-decoration: none;
+  display: flex;
+  margin: 20px;
+  justify-content: center;
 `
 export const CapitalLetter = styled.span`
   position: absolute;

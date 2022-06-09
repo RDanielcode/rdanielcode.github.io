@@ -2,13 +2,13 @@ import styled from 'styled-components'
 
 export const Container = styled.main`
   height: 400px;
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
   `
 
 export const Card = styled.div`
-  height: 200px;
+  height: 50%;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ export const Card = styled.div`
   `
 
 export const Image = styled.img`
-  height: 70%;
+  height: 90%;
   width: 70%;
   object-fit: contain;
   `
@@ -26,7 +26,7 @@ export const ProjectContainer = styled.div`
   width: 100%;
   color: #b7b7b7;
   display: flex;
-  background: #1e1e1e;
+  background: #0c0e0f;
   flex-direction: column;
   align-items: center;
   &.inactive{
@@ -45,4 +45,7 @@ export const CapitalLetter = styled.span`
   font-weight: 920;
   opacity: 0.7;
   z-index: 1;
+`
+export const More = styled.h4`
+  color: #b7b7b7;
 `

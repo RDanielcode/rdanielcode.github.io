@@ -5,7 +5,7 @@ import { Article, CapitalLetter, Container, SecondTitle } from './styles'
 const Skills = () => {
   const size = '32px'
   return (
-    <Article>
+    <Article id='Skills'>
       <SecondTitle><CapitalLetter>S</CapitalLetter>kills</SecondTitle>
       <Container>
         <SiJavascript size={size} color='#f7df1e' />

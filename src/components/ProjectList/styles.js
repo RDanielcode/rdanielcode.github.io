@@ -7,7 +7,7 @@ export const Section = styled.section`
 `
 
 export const Article = styled.article`
-  border-top: 1px solid;
+  border-top: 1px solid #a1a110;
   margin-bottom: 10px;
   margin-left: 10px;
   display: flex;
@@ -28,4 +28,12 @@ export const Tech = styled.div`
 export const Type = styled.div`
   border-radius: 50%;
   margin: 5px;
+`
+export const Anchor = styled.a`
+  text-decoration: none;
+  color: #b7b7b7;
+  font-size: 12px;
+`
+export const Description = styled.p`
+  font-size: 12px;
 `

@@ -1,14 +1,17 @@
 import React, { useContext } from 'react'
 import { Context } from '../Context/Context'
-import { Header, Title, Text, Photo, Info, HeaderInfo, CapitalLetter, SecondTitle } from './styles'
+import { Header, Text, Info, HeaderInfo, CapitalLetter, SecondTitle } from './styles'
+import { VscCode } from 'react-icons/vsc'
 
 const PersonalInfo = () => {
   const { checked } = useContext(Context)
   return (
-    <Header className={checked && 'inactive'}>
-      <Title>/</Title>
+    <Header className={checked && 'inactive'} id='Personal'>
       <HeaderInfo>
-        <Photo src='../../assets/escritorio.jpg' />
+        <div>
+          <VscCode size='60px' color='#a1a110' />
+        </div>
+        {/* <Photo src='../../assets/escritorio.png' /> */}
         <Info>
           <SecondTitle><CapitalLetter>A</CapitalLetter>bout me</SecondTitle>
           <Text>Chemical Engineer and Frontend Developer dedicated to learn eveyday and face   challenges on any moment. My career can be described from two points of view.<br /><br />

@@ -5,7 +5,7 @@ export const Article = styled.article`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #0c0e0f;
+  background: #1e1e1e;
 `
 
 export const CapitalLetter = styled.span`

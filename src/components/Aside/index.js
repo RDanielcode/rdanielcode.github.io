@@ -8,7 +8,7 @@ const AsideInfo = () => {
   return (
     <Aside onClick={hideAside} className={checked && 'active'}>
       <Div>
-        <Image src='./assets/escritorio.jpg' />
+        <Image src='./assets/escritorio.png' />
       </Div>
       <Div>
         <Name>Daniel Reyes</Name>

@@ -3,13 +3,13 @@ import { Context } from '../Context/Context'
 import { Button, CapitalLetter, Contact, Form, InputContent, InputTitle, Label, Social, Title } from './styles'
 import { FaLinkedin } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
-import { FcPhoneAndroid } from 'react-icons/fc'
+import { BsPhone } from 'react-icons/bs'
 
 const ContactsInfo = () => {
   const { checked } = useContext(Context)
   return (
-    <Form action='https://formsubmit.co/danielalejndro@gmail.com' method='POST' className={checked && 'inactive'}>
-      <Title><CapitalLetter>C</CapitalLetter>ontact</Title>
+    <Form action='https://formsubmit.co/danielalejndro@gmail.com' method='POST' className={checked && 'inactive'} id='Contact'>
+      <Title><CapitalLetter>C</CapitalLetter>ontact </Title>
 
       <Label htmlFor='name'>Name</Label>
       <InputTitle type='text' placeholder='title' name='name' />
@@ -28,10 +28,10 @@ const ContactsInfo = () => {
 
       <Button type='submit'>Send</Button>
       <Social href='https://www.linkedin.com/in/daniel-reyes-88745471/'>
-        <Contact><FaLinkedin />Linkedin</Contact>
+        <Contact><FaLinkedin color='#a1a110' /></Contact>
+        <Contact><AiOutlineMail color='#a1a110' /></Contact>
+        <Contact><BsPhone color='#a1a110' /></Contact>
       </Social>
-      <Contact><AiOutlineMail />danielalejndro@gmail.com</Contact>
-      <Contact><FcPhoneAndroid />Phone Number: +58 412-4701857</Contact>
     </Form>
   )
 }

@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react'
 import { Modal } from '../../Modal'
 import ProjectInfo from '../../ProjectInfo'
-import { Container, Image, Card, ProjectContainer, CapitalLetter, Title } from './styles'
+import { Container, Image, Card, ProjectContainer, CapitalLetter, Title, More } from './styles'
 import { Context } from '../Context/Context'
 import { Link } from 'react-router-dom'
 
@@ -14,7 +14,7 @@ const ProjectsInfo = () => {
   console.log(setInfo)
 
   return (
-    <ProjectContainer className={checked && 'inactive'}>
+    <ProjectContainer className={checked && 'inactive'} id='Work'>
       <Title><CapitalLetter>P</CapitalLetter>rojects</Title>
       <Container>
         {
@@ -24,7 +24,7 @@ const ProjectsInfo = () => {
                 src={project.src}
                 onClick={() => dispatch({ type: project.number })}
               />
-              <h3>{project.title}</h3>
+              {/* <h3>{project.title}</h3> */}
               {state[project.number] &&
                 <Modal
                   src={project.src}
@@ -37,8 +37,8 @@ const ProjectsInfo = () => {
           )
         }
       </Container>
-      <Link to='/detail'>
-        <h5>More projects...</h5>
+      <Link style={{ textDecoration: 'none' }} to='/detail'>
+        <More>More projects...</More>
       </Link>
     </ProjectContainer>
   )
