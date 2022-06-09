@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { Context } from '../Context/Context'
 import { Button, CapitalLetter, Contact, Form, InputContent, InputTitle, Label, Social, Title } from './styles'
 import { FaLinkedin } from 'react-icons/fa'
-import { AiOutlineMail } from 'react-icons/ai'
+import { AiOutlineMail, AiFillGithub } from 'react-icons/ai'
 import { BsPhone } from 'react-icons/bs'
 
 const ContactsInfo = () => {
@@ -27,10 +27,11 @@ const ContactsInfo = () => {
       <input type='hidden' name='_captcha' value='false' />
 
       <Button type='submit'>Send</Button>
-      <Social href='https://www.linkedin.com/in/daniel-reyes-88745471/'>
-        <Contact><FaLinkedin color='#a1a110' /></Contact>
-        <Contact><AiOutlineMail color='#a1a110' /></Contact>
-        <Contact><BsPhone color='#a1a110' /></Contact>
+      <Social>
+        <Contact href='https://www.linkedin.com/in/daniel-reyes-88745471/'><FaLinkedin color='#a1a110' /></Contact>
+        <Contact href='mailto:danielalejndro@gmail.com'><AiOutlineMail color='#a1a110' /></Contact>
+        <Contact href='https://wa.me/584124701857'><BsPhone color='#a1a110' /></Contact>
+        <Contact href='https://github.com/RDanielcode'><AiFillGithub color='#a1a110' /></Contact>
       </Social>
     </Form>
   )

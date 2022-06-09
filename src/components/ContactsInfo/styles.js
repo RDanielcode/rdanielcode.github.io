@@ -34,7 +34,7 @@ export const Label = styled.label`
   font-size: 14px;
 `
 
-export const Contact = styled.p`
+export const Contact = styled.a`
   margin: 3px;
   display: flex;
   align-items: center;

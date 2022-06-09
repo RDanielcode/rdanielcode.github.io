@@ -24,7 +24,9 @@ const TopCo = () => {
         <InfoNames>
           <Name>Hi, i am Daniel</Name>
           <Tech>I'M A DEVELOPER</Tech>
-          <Button>Download CV</Button>
+          <a href='../../assets/petgram.jpg' download>
+            <Button>Download CV</Button>
+          </a>
         </InfoNames>
         <Photo src='../../assets/1654725347226.png' />
       </Container>
