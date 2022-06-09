@@ -9,7 +9,7 @@ const PersonalInfo = () => {
     <Header className={checked && 'inactive'} id='Personal'>
       <HeaderInfo>
         <div>
-          <VscCode size='60px' color='#a1a110' />
+          <VscCode size='80px' color='#a1a110' />
         </div>
         {/* <Photo src='../../assets/escritorio.png' /> */}
         <Info>

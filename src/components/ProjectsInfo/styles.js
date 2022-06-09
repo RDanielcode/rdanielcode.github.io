@@ -1,24 +1,32 @@
 import styled from 'styled-components'
 
 export const Container = styled.main`
-  height: 400px;
+  height: 500px;
   width: 70%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  @media (min-width: 600px){
+    flex-wrap: nowrap;
+  }
   `
 
 export const Card = styled.div`
   height: 50%;
   width: 50%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-items:center;
   `
 
 export const Image = styled.img`
-  height: 90%;
-  width: 70%;
+  height: 150px;
+  width: 150px;
   object-fit: contain;
+  @media (min-width: 600px){
+    height: 245px;
+  }
   `
 
 export const ProjectContainer = styled.div`
@@ -33,14 +41,8 @@ export const ProjectContainer = styled.div`
     opacity: 0.3;
   }
 `
-export const Title = styled.h4`
-  position: relative;
-`
 export const CapitalLetter = styled.span`
-  position: absolute;
   font-size: 50px;
-  top: -32px;
-  right: 60%;
   color: #b7b7b7;
   font-weight: 920;
   opacity: 0.7;

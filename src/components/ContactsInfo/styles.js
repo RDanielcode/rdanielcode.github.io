@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Form = styled.form`
   height: 400px;
   width: 70%;
+  max-width: 600px;
   color: #b7b7b7;
   background: #0c0e0f;
   display: flex;
@@ -16,17 +17,15 @@ export const Form = styled.form`
 
 export const InputTitle = styled.input`
   width: 100%;
-  max-width: 500px;
   height: 30px;
-  margin: 5px 0;
+  margin: 5px auto;
   background: #c9c9c9;
 `
 
 export const InputContent = styled.textarea`
   width: 100%;
-  max-width: 500px;
   height: 330px;
-  margin: 5px 0;
+  margin: 5px auto;
   background: #c9c9c9;
 `
 
@@ -40,7 +39,7 @@ export const Contact = styled.a`
   align-items: center;
 `
 
-export const Social = styled.a`
+export const Social = styled.div`
   color: #b7b7b7;
   text-decoration: none;
   display: flex;
@@ -65,4 +64,5 @@ export const Button = styled.button`
   background: #a1a110;
   border: none;
   color: #b7b7b7;
+  width: 100%;
 `
