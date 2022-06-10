@@ -7,7 +7,8 @@ export default {
       description: 'To do list app, allows you to save those pending task, so you can remember them and mark them when they are done',
       active: false,
       number: 'ONE',
-      link: 'https://rdanielcode.github.io/ToDo-App/'
+      link: 'https://rdanielcode.github.io/ToDo-App/',
+      alt: 'To do list'
     },
 
     {
@@ -17,7 +18,8 @@ export default {
       description: 'This app is an example of how ecommerce websites works. You will find a flow where you must add your info and finally a paypal button to proceed.',
       active: false,
       number: 'TWO',
-      link: 'https://store-project-d6d95.web.app/'
+      link: 'https://store-project-d6d95.web.app/',
+      alt: 'My first store'
     },
 
     {
@@ -27,7 +29,8 @@ export default {
       description: 'Petgram is an app where you can find a lot of pet photos. You will be able to log in, to like photos and more',
       active: false,
       number: 'THREE',
-      link: 'https://petgram-dancode2-rdanielcode.vercel.app/'
+      link: 'https://petgram-dancode2-rdanielcode.vercel.app/',
+      alt: 'Petgram'
     },
 
     {
@@ -37,7 +40,8 @@ export default {
       description: 'Weather App is an easy app with a friendly interface where you put any city of the world and it shows to you the weather info of that location',
       active: false,
       number: 'FOUR',
-      link: 'https://rdanielcode.github.io/Weather-App/public/index.html'
+      link: 'https://rdanielcode.github.io/Weather-App/public/index.html',
+      alt: 'Weather App'
     }
   ]
 }

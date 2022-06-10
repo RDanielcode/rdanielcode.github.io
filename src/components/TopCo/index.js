@@ -22,13 +22,15 @@ const TopCo = () => {
       </Nav>
       <Container>
         <InfoNames>
-          <Name>Hi, i am Daniel</Name>
-          <Tech>I'M A DEVELOPER</Tech>
-          <a href='../../assets/petgram.jpg' download>
-            <Button>Download CV</Button>
-          </a>
+          <div>
+            <Name>Hi, i am Daniel</Name>
+            <Tech>I'M A DEVELOPER</Tech>
+            <a href='../../assets/petgram.jpg' download>
+              <Button>Download CV</Button>
+            </a>
+          </div>
         </InfoNames>
-        <Photo src='../../assets/1654725347226.png' />
+        <Photo src='../../assets/escritorio.png' alt='Profile' />
       </Container>
     </Article>
   )

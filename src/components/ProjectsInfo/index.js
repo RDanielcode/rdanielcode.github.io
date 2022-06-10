@@ -22,6 +22,7 @@ const ProjectsInfo = () => {
             <Card key={project.id}>
               <Image
                 src={project.src}
+                alt={project.alt}
                 onClick={() => dispatch({ type: project.number })}
               />
               {/* <h3>{project.title}</h3> */}

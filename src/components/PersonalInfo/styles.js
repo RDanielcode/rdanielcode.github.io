@@ -25,6 +25,7 @@ export const Title = styled.h2`
 export const Text = styled.p`
   font-size: 8px;
   color: #b7b7b7;
+  margin: 0;
   text-align: justify;
   z-index: 2;
   @media (min-width: 500px){

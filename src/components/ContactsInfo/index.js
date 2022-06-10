@@ -7,6 +7,7 @@ import { BsPhone } from 'react-icons/bs'
 
 const ContactsInfo = () => {
   const { checked } = useContext(Context)
+  const size = '16px'
   return (
     <Form action='https://formsubmit.co/danielalejndro@gmail.com' method='POST' className={checked && 'inactive'} id='Contact'>
       <Title><CapitalLetter>C</CapitalLetter>ontact </Title>
@@ -28,10 +29,10 @@ const ContactsInfo = () => {
 
       <Button type='submit'>Send</Button>
       <Social>
-        <Contact href='https://www.linkedin.com/in/daniel-reyes-88745471/'><FaLinkedin color='#a1a110' /></Contact>
-        <Contact href='mailto:danielalejndro@gmail.com'><AiOutlineMail color='#a1a110' /></Contact>
-        <Contact href='https://wa.me/584124701857'><BsPhone color='#a1a110' /></Contact>
-        <Contact href='https://github.com/RDanielcode'><AiFillGithub color='#a1a110' /></Contact>
+        <Contact href='https://www.linkedin.com/in/daniel-reyes-88745471/'><FaLinkedin size={size} color='#a1a110' /></Contact>
+        <Contact href='mailto:danielalejndro@gmail.com'><AiOutlineMail size={size} color='#a1a110' /></Contact>
+        <Contact href='https://wa.me/584124701857'><BsPhone size={size} color='#a1a110' /></Contact>
+        <Contact href='https://github.com/RDanielcode'><AiFillGithub size={size} color='#a1a110' /></Contact>
       </Social>
     </Form>
   )

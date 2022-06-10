@@ -11,9 +11,14 @@ export const Article = styled.article`
   }
 `
 export const Photo = styled.img`
-  width: 200px;
+  width: 150px;
+  overflow: hidden;
+  align-self: flex-end;
   @media (min-width: 500px){
-    width: 300px;
+    width: 224px;
+  }
+  @media (min-width: 1000px){
+    margin-right: 200px;
   }
 `
 export const Nav = styled.nav`
@@ -43,12 +48,20 @@ export const Container = styled.div`
   display: flex;
   margin-top: 30px;
   width: 100%;
+  height: 100%;
 `
 export const InfoNames = styled.div`
   width: 50%;
   margin: 30px 0 0 40px;
+  display: flex;
   @media (min-width: 500px){
     margin: 100px 0 0 50px;
+  }
+  @media (min-width: 900px){
+    margin: 100px 0 0 200px;
+  }
+  @media (min-width: 1100px){
+    margin: 100px 0 0 250px;
   }
 `
 export const Name = styled.h1`

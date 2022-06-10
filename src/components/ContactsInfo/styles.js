@@ -34,7 +34,7 @@ export const Label = styled.label`
 `
 
 export const Contact = styled.a`
-  margin: 3px;
+  margin: 8px;
   display: flex;
   align-items: center;
 `
@@ -65,4 +65,5 @@ export const Button = styled.button`
   border: none;
   color: #b7b7b7;
   width: 100%;
+  margin-top: 10px;
 `
