@@ -19,7 +19,7 @@ export default {
       description: 'This app is an example of how ecommerce websites works. You will find a flow where you must add your info and finally a paypal button to proceed.',
       active: false,
       number: 'TWO',
-      link: 'https://store-project-d6d95.web.app/',
+      link: 'https://store-project-d6d95.firebaseapp.com/',
       type: 'React',
       color: '#5ab2b5'
     },
