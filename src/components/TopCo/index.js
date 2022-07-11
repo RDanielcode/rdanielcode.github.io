@@ -25,7 +25,7 @@ const TopCo = () => {
           <div>
             <Name>Hi, i am Daniel</Name>
             <Tech>I'M A DEVELOPER</Tech>
-            <a href='../../assets/petgram.jpg' download>
+            <a href='../../assets/JrFrontend_Daniel_Reyes.pdf' download>
               <Button>Download CV</Button>
             </a>
           </div>
