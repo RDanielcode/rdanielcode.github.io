@@ -14,11 +14,12 @@ const PersonalInfo = () => {
         {/* <Photo src='../../assets/escritorio.png' /> */}
         <Info>
           <SecondTitle><CapitalLetter>A</CapitalLetter>bout me</SecondTitle>
-          <Text>Chemical Engineer and Frontend Developer dedicated to learn eveyday and face   challenges on any moment. My career can be described from two points of view.<br /><br />
+          <Text>
+            Chemical Engineer and Frontend Developer dedicated to learn everyday and face   challenges on any moment. My career can be described from two points of view.<br /><br />
 
-            I'm a Chemical Engineer with 7 years of experience in the food and beverage industry, where i developed a lot of personal and profetional aspects. My last roles/duties, i was in charge of teams of different areas such as Brewhouse and Fermentation.<br /><br />
+            i'm totally dedicated to the Software Area from more than a year, developing my own projects, open to new opportunities, learning and practicing everything about Frontend. I have skills on React.js, JavaScript, CSS, Git and Github, Webpack , TypeScript and HTML.<br /><br />
 
-            Now, i'm totally dedicated to the Software Area from more than a year, open to new opportunities, learning and practicing everything about Frontend. I have skills on React.js, JavaScript, CSS, Git and Github, Webpack , TypeScript and HTML. You can see my github profile in Contacts section.
+            On the other hand i'm a Chemical Engineer with 7 years of experience in the food and beverage industry, where i developed a lot of personal and professional aspects. My last roles/duties, i was in charge of teams of different areas such as Brewhouse and Fermentation.
           </Text>
         </Info>
       </HeaderInfo>
