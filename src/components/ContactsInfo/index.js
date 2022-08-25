@@ -1,15 +1,13 @@
-import React, { useContext } from 'react'
-import { Context } from '../Context/Context'
+import React from 'react'
 import { Button, CapitalLetter, Contact, Form, InputContent, InputTitle, Label, Social, Title } from './styles'
 import { FaLinkedin } from 'react-icons/fa'
 import { AiOutlineMail, AiFillGithub } from 'react-icons/ai'
 import { BsPhone } from 'react-icons/bs'
 
 const ContactsInfo = () => {
-  const { checked } = useContext(Context)
-  const size = '16px'
+  const size = '28px'
   return (
-    <Form action='https://formsubmit.co/danielalejndro@gmail.com' method='POST' className={checked && 'inactive'} id='Contact'>
+    <Form action='https://formsubmit.co/danielalejndro@gmail.com' method='POST' id='Contact'>
       <Title><CapitalLetter>C</CapitalLetter>ontact </Title>
 
       <Label htmlFor='name'>Name</Label>

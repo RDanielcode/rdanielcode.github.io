@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Section = styled.section`
   padding-bottom: 40px;
+  transition-duration: 2s;
   background-color: #1e1e1e;
   color: #b7b7b7;
 `

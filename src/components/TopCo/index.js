@@ -3,7 +3,7 @@ import { Anchor, Article, Button, Container, InfoNames, ItemList, List, Name, Na
 
 const TopCo = () => {
   return (
-    <Article>
+    <Article id='Principal'>
       <Nav>
         <List>
           <Anchor href='#Personal'>

@@ -2,16 +2,13 @@ import styled from 'styled-components'
 
 export const Article = styled.article`
   width: 100%;
-  height: 290px;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   background: #0c0e0f;
-  @media (min-width: 500px){
-    height: 400px;
-  }
 `
 export const Photo = styled.img`
-  width: 150px;
+  width: 350px;
   overflow: hidden;
   align-self: flex-end;
   @media (min-width: 500px){
@@ -19,6 +16,7 @@ export const Photo = styled.img`
   }
   @media (min-width: 1000px){
     margin-right: 200px;
+    width: 450px;
   }
 `
 export const Nav = styled.nav`
@@ -35,7 +33,7 @@ export const List = styled.ul`
 export const ItemList = styled.li`
   margin: 10px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 12px;
   &:hover{
     border-bottom: 1px solid #a1a110
   }
@@ -52,7 +50,7 @@ export const Container = styled.div`
 `
 export const InfoNames = styled.div`
   width: 50%;
-  margin: 30px 0 0 40px;
+  margin: 50px 0 0 40px;
   display: flex;
   @media (min-width: 500px){
     margin: 100px 0 0 50px;

@@ -9,8 +9,10 @@ const Provider = ({ children }) => {
     setChecked(false)
   }
 
-  const showAside = () => {
-    setChecked(true)
+  const showAside = (e) => {
+    const limitScroll = window.scrollY > 500
+    if (limitScroll) setChecked(true)
+    if (!limitScroll) setChecked(false)
   }
   return (
     <Context.Provider value={{ checked, setChecked, hideAside, showAside }}>

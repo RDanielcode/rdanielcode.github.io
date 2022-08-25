@@ -1,15 +1,20 @@
-import React, { useContext } from 'react'
-import { BiAlignLeft } from 'react-icons/bi'
+import React, { useContext, useEffect } from 'react'
+import { BsArrowLeftCircleFill } from 'react-icons/bs'
 import { Context } from '../Context/Context'
-import { Button } from './styles'
+import { Anchor } from './styles'
 
 const MenuButton = () => {
-  const { showAside } = useContext(Context)
+  const { showAside, checked } = useContext(Context)
+
+  useEffect(() => {
+    window.addEventListener('scroll', showAside)
+    return () => document.removeEventListener('scroll', showAside)
+  }, [showAside])
 
   return (
-    <Button onClick={showAside}>
-      <BiAlignLeft />
-    </Button>
+    <Anchor href='#Principal' showButton={showAside} className={checked && 'active'}>
+      <BsArrowLeftCircleFill color='#a1a110' size='20px' />
+    </Anchor>
   )
 }
 

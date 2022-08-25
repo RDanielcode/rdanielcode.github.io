@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Header = styled.header`
   margin: 0px;
-  height: 250px;
+  height: 95vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@ export const Title = styled.h2`
   color: #b7b7b7;
 `
 export const Text = styled.p`
-  font-size: 8px;
+  font-size: 12px;
   color: #b7b7b7;
   margin: 0;
   text-align: justify;
@@ -53,8 +53,15 @@ export const CapitalLetter = styled.span`
   font-weight: 920;
   opacity: 0.7;
   z-index: 1;
+  @media (min-width: 500px){
+    font-size: 70px;
+  }
 `
 export const SecondTitle = styled.h4`
   margin: 0 0 0 10px;
   color: #b7b7b7;
+  margin-bottom: 10px;
+  @media (min-width: 500px){
+    font-size: 30px;
+  }
 `

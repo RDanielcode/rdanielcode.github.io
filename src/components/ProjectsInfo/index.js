@@ -1,21 +1,19 @@
-import React, { useState, useContext } from 'react'
+import React, { useState } from 'react'
 import { Modal } from '../../Modal'
 import ProjectInfo from '../../ProjectInfo'
-import { Container, Image, Card, ProjectContainer, CapitalLetter, More } from './styles'
-import { Context } from '../Context/Context'
+import { Container, Image, Card, ProjectContainer, CapitalLetter, More, SecondTitle } from './styles'
 import { Link } from 'react-router-dom'
 
 const ProjectsInfo = () => {
   const [state, dispatch] = React.useReducer(reducer, initialState)
-  const { checked } = useContext(Context)
 
   const [info, setInfo] = useState(ProjectInfo)
   const { projects } = info
   console.log(setInfo)
 
   return (
-    <ProjectContainer className={checked && 'inactive'} id='Work'>
-      <h4>My <CapitalLetter>W</CapitalLetter>ork</h4>
+    <ProjectContainer id='Work'>
+      <SecondTitle>My <CapitalLetter>W</CapitalLetter>ork</SecondTitle>
       <Container>
         {
           projects.map(project =>

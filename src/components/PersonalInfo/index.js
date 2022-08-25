@@ -1,12 +1,10 @@
-import React, { useContext } from 'react'
-import { Context } from '../Context/Context'
+import React from 'react'
 import { Header, Text, Info, HeaderInfo, CapitalLetter, SecondTitle } from './styles'
 import { VscCode } from 'react-icons/vsc'
 
 const PersonalInfo = () => {
-  const { checked } = useContext(Context)
   return (
-    <Header className={checked && 'inactive'} id='Personal'>
+    <Header id='Personal'>
       <HeaderInfo>
         <div>
           <VscCode size='80px' color='#a1a110' />

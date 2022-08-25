@@ -10,5 +10,6 @@ export const GlobalStyle = createGlobalStyle`
     height:100%;
     margin: 0px;
     background: #0c0e0f;
+    scroll-behavior: smooth;
   }
 `

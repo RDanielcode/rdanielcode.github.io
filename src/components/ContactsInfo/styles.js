@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Form = styled.form`
-  height: 400px;
+  height: 100vh;
   width: 70%;
   max-width: 600px;
   color: #b7b7b7;
@@ -47,18 +47,21 @@ export const Social = styled.div`
   justify-content: center;
 `
 export const CapitalLetter = styled.span`
-  position: absolute;
   font-size: 50px;
-  top: -32px;
-  left: -4%;
   color: #b7b7b7;
   font-weight: 920;
   opacity: 0.7;
   z-index: 1;
+  @media (min-width: 500px){
+    font-size: 70px;
+  }
 `
 export const Title = styled.h4`
   position: relative;
   margin-left: 20px;
+  @media (min-width: 500px){
+    font-size: 30px;
+  }
 `
 export const Button = styled.button`
   background: #a1a110;

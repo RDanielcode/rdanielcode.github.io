@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.main`
-  height: 500px;
+  height: 100vh;
   width: 70%;
   display: flex;
   justify-content: center;
@@ -24,13 +24,16 @@ export const Image = styled.img`
   height: 150px;
   width: 150px;
   object-fit: contain;
+  &:hover{
+    opacity: 0.4;
+  }
   @media (min-width: 600px){
     height: 245px;
   }
   `
 
 export const ProjectContainer = styled.div`
-  height: 500px;
+  height: 95vh;
   width: 100%;
   color: #b7b7b7;
   display: flex;
@@ -47,7 +50,22 @@ export const CapitalLetter = styled.span`
   font-weight: 920;
   opacity: 0.7;
   z-index: 1;
+  @media (min-width: 500px){
+    font-size: 70px;
+  }
 `
+export const SecondTitle = styled.h4`
+  margin: 0 0 0 10px;
+  color: #b7b7b7;
+  margin-bottom: 10px;
+  @media (min-width: 500px){
+    font-size: 30px;
+  }
+`
+
 export const More = styled.h4`
   color: #b7b7b7;
+  @media (min-width: 500px){
+    font-size: 30px;
+  }
 `

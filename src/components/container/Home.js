@@ -1,6 +1,7 @@
 import React from 'react'
 import { ContactsInfo } from '../ContactsInfo'
 import { LayoutHelmet } from '../Layout/LayoutHelmet'
+import { MenuButton } from '../MenuButton'
 import { PersonalInfo } from '../PersonalInfo'
 import { ProjectsInfo } from '../ProjectsInfo'
 import { Skills } from '../Skills'
@@ -15,6 +16,7 @@ const Home = () => {
         <ProjectsInfo />
         <Skills />
         <ContactsInfo />
+        <MenuButton />
       </LayoutHelmet>
     </div>
   )
