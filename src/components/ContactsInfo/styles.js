@@ -8,11 +8,7 @@ export const Form = styled.form`
   background: #0c0e0f;
   display: flex;
   flex-direction: column;
-  margin: 20px auto;
-  // padding-bottom: 40px;
-  &.inactive{
-    opacity: 0.3;
-  }
+  margin: 0px auto 20px auto;
   @media (min-width: 500px){
     margin: 60px 10px 30px 30px;
   }
@@ -80,7 +76,7 @@ export const Container = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 60px auto 0 auto;
+  padding-top: 30px;
   @media (min-width: 500px){
     flex-direction: row;
     align-items: center;
