@@ -76,7 +76,8 @@ export const Container = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
+  justify-items: center;
+  align-items: center;
   @media (min-width: 500px){
     flex-direction: row;
     align-items: center;
