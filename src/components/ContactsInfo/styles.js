@@ -1,15 +1,15 @@
 import styled from 'styled-components'
 
 export const Form = styled.form`
-  height: 100vh;
   width: 70%;
+  height: 70%;
   max-width: 400px;
   color: #b7b7b7;
   background: #0c0e0f;
   display: flex;
   flex-direction: column;
-  margin: auto;
-  padding-bottom: 40px;
+  margin: 20px auto;
+  // padding-bottom: 40px;
   &.inactive{
     opacity: 0.3;
   }
@@ -29,7 +29,7 @@ export const InputTitle = styled.input`
 
 export const InputContent = styled.textarea`
   width: 100%;
-  height: 330px;
+  height: 150px;
   margin: 5px auto;
   background: #c9c9c9;
 `
@@ -62,7 +62,6 @@ export const CapitalLetter = styled.span`
   }
 `
 export const Title = styled.h4`
-  position: relative;
   margin-left: 20px;
   color: #b7b7b7;
   @media (min-width: 500px){
@@ -78,9 +77,10 @@ export const Button = styled.button`
 `
 
 export const Container = styled.div`
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 60px auto 0 auto;
   @media (min-width: 500px){
     flex-direction: row;
     align-items: center;
