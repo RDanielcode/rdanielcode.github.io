@@ -54,7 +54,7 @@ export const CapitalLetter = styled.span`
   opacity: 0.7;
   z-index: 1;
   @media (min-width: 500px){
-    font-size: 70px;
+    font-size: 100px;
   }
 `
 export const SecondTitle = styled.h4`
@@ -62,6 +62,6 @@ export const SecondTitle = styled.h4`
   color: #b7b7b7;
   margin-bottom: 10px;
   @media (min-width: 500px){
-    font-size: 30px;
+    font-size: 50px;
   }
 `

@@ -8,15 +8,14 @@ export const Article = styled.article`
   background: #0c0e0f;
 `
 export const Photo = styled.img`
-  width: 350px;
+  object-fit: cover;
   overflow: hidden;
-  align-self: flex-end;
   @media (min-width: 500px){
-    width: 224px;
+    width: 350px;
   }
   @media (min-width: 1000px){
     margin-right: 200px;
-    width: 450px;
+    width: 550px;
   }
 `
 export const Nav = styled.nav`
@@ -50,7 +49,7 @@ export const Container = styled.div`
 `
 export const InfoNames = styled.div`
   width: 50%;
-  margin: 50px 0 0 40px;
+  margin: 80px 0 0 40px;
   display: flex;
   @media (min-width: 500px){
     margin: 100px 0 0 50px;
@@ -67,7 +66,10 @@ export const Name = styled.h1`
   font-size: 32px;
   margin: 0;
   @media (min-width: 500px){
-    font-size: 48px;
+    font-size: 50px;
+  }
+  @media (min-width: 800px){
+    font-size: 80px;
   }
 `
 export const Anchor = styled.a`

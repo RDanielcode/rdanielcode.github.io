@@ -23,8 +23,8 @@ const TopCo = () => {
       <Container>
         <InfoNames>
           <div>
-            <Name>Hi, i am Daniel</Name>
-            <Tech>I'M A DEVELOPER</Tech>
+            <Name>HI, <br />I'M DANIEL</Name>
+            <Tech>WEB DEVELOPER</Tech>
             <a href='../../assets/JrFrontend_Daniel_Reyes.pdf' download>
               <Button>Download CV</Button>
             </a>
