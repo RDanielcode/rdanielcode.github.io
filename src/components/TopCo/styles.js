@@ -6,16 +6,14 @@ export const Article = styled.article`
   display: flex;
   flex-direction: column;
   background: #0c0e0f;
+  overflow: hidden;
 `
 export const Photo = styled.img`
+  width: 60%;
   object-fit: cover;
   overflow: hidden;
-  @media (min-width: 500px){
-    width: 350px;
-  }
-  @media (min-width: 1000px){
-    margin-right: 200px;
-    width: 550px;
+  @media (min-width: 700px){
+    width: 500px;
   }
 `
 export const Nav = styled.nav`
@@ -48,18 +46,12 @@ export const Container = styled.div`
   height: 100%;
 `
 export const InfoNames = styled.div`
-  width: 50%;
+  width: 40%;
   margin: 80px 0 0 40px;
   display: flex;
-  @media (min-width: 500px){
-    margin: 100px 0 0 50px;
-  }
-  @media (min-width: 900px){
-    margin: 100px 0 0 200px;
-  }
-  @media (min-width: 1100px){
-    margin: 100px 0 0 250px;
-  }
+  align-self: center;
+  justify-self: center;
+  font-size: 10%;
 `
 export const Name = styled.h1`
   color: #a1a110;
