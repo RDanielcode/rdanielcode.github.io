@@ -6,7 +6,7 @@ import { FooterDiv, Link } from './styles'
 const Footer = () => {
   const location = useLocation()
   const size = '24px'
-  const color = 'rgb(0,0,0)'
+  const color = '#a1a110'
 
   return (
     <FooterDiv>

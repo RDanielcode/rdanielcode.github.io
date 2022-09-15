@@ -43,7 +43,7 @@ export default {
       description: 'Weather App is an easy app with a friendly interface where you put any city of the world and it shows to you the weather info of that location',
       active: false,
       number: 'FOUR',
-      link: 'https://rdanielcode.github.io/Weather-App/public/index.html',
+      link: 'https://rdanielcode.github.io/Weather-App/',
       type: 'JavaScript',
       color: '#dbdb2f'
     },

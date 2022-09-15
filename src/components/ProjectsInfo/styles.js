@@ -18,6 +18,7 @@ export const Card = styled.div`
   display: flex;
   justify-content: center;
   align-items:center;
+  cursor: pointer;
   `
 
 export const Image = styled.img`
@@ -33,13 +34,14 @@ export const Image = styled.img`
   `
 
 export const ProjectContainer = styled.div`
-  height: 95vh;
+  height: 100vh;
   width: 100%;
   color: #b7b7b7;
   display: flex;
   background: #0c0e0f;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 30px;
   &.inactive{
     opacity: 0.3;
   }
@@ -55,7 +57,7 @@ export const CapitalLetter = styled.span`
   }
 `
 export const SecondTitle = styled.h4`
-  margin: 0 0 0 10px;
+  margin: 60px 0 0 10px;
   color: #b7b7b7;
   margin-bottom: 10px;
   @media (min-width: 500px){

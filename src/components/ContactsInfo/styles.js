@@ -59,6 +59,7 @@ export const CapitalLetter = styled.span`
 `
 export const Title = styled.h4`
   margin-left: 20px;
+  margin-top: 60px;
   color: #b7b7b7;
   @media (min-width: 500px){
     font-size: 50px;

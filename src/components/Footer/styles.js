@@ -10,7 +10,8 @@ export const FooterDiv = styled.footer`
   height: 36px;
   border-top: 1px solid;
   width: 100%;
-  background-color: #fff;
+  background-color: #0c0e0f;
+  border-top: 1px solid #a1a110;
   right: 0;
   left: 0;
   z-index: 10;

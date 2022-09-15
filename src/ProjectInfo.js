@@ -24,24 +24,24 @@ export default {
 
     {
       id: 3,
-      title: 'Petgram',
-      src: './assets/petgram.jpg',
-      description: 'Petgram is an app where you can find a lot of pet photos. You will be able to log in, to like photos and more',
+      title: 'Memory Game Pokemon',
+      src: './assets/memory-game.jpg',
+      description: 'Simple game in which you must remember the sequence that colors are enlighted and then press the right color order',
       active: false,
       number: 'THREE',
-      link: 'https://petgram-dancode2-rdanielcode.vercel.app/',
-      alt: 'Petgram'
+      link: 'https://rdanielcode.github.io/MemoryGame/src/index.html',
+      alt: 'Memory Game'
     },
 
     {
       id: 4,
-      title: 'Weather App',
-      src: './assets/weather.jpg',
-      description: 'Weather App is an easy app with a friendly interface where you put any city of the world and it shows to you the weather info of that location',
+      title: 'Animation Game',
+      src: './assets/killing-game.jpg',
+      description: 'Ease game to point rabbits until you get score = 4',
       active: false,
       number: 'FOUR',
-      link: 'https://rdanielcode.github.io/Weather-App/public/index.html',
-      alt: 'Weather App'
+      link: 'https://rdanielcode.github.io/Game/',
+      alt: 'Kill the rabbits game'
     }
   ]
 }
